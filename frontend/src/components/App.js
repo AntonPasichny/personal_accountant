@@ -1,7 +1,12 @@
 import React from 'react';
+import FormRegistration from './FormRegistration';
 
 const App = () => {
-  return <div>Хуй</div>;
+  return (
+    <div>
+      <FormRegistration />
+    </div>
+  );
 };
 
 export default App;
